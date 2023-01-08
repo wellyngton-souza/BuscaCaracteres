@@ -5,6 +5,7 @@
 using namespace std;
 
 int main(){
+    system("clear");
     int i;
     char caracteres[texto.size() + 1];
     int nr = 0;
@@ -17,7 +18,7 @@ int main(){
         }
     }
 
-    cout << nr << " Caracteres " << divisor << " Encontrados.\n";
+    cout << nr << " Caracteres " << divisor << " Encontrados.\n\n";
 
     return 0;
 }
